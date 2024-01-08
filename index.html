@@ -1,0 +1,228 @@
+<!DOCTYPE html5>
+<html>
+  <head>
+    <title>
+      CheatSheet Links
+    </title>
+    <link haref="styles.css" rel="stylesheet">
+  </head>
+
+<body>
+  <header> <!-- Good Example of Semantic HTML -->
+    <h1>CheatSheet for HTML/CSS</h1>
+    <h2>Navigation Links</h2>
+    <nav>
+      <ul>
+        <li><a href="./index.html">HTML Cheatsheet</a></li>
+        <li><a href="./css-cs.html">CSS Cheatsheet</a></li>
+        <li><a href="./projects.html">How to use this in projects?</a></li>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#resources">Resources</a></li>
+      </ul>
+   </nav>
+  </header>
+
+  <main>
+  
+  <section>
+    <div id="introduction">
+      <h3><em>HTML: A Declarative Language</em></h3>
+      <p><strong>Hypertext</strong> refers to links that connect web pages to one another, either within a single website or between websites.
+      <br><strong>Markup</strong> annotates text, images, and other content for display in a Web browser. HTML markup includes special <em>elements</em> such as head, title, body and so  on...</p>
+    </div>
+
+     <aside> 
+       <p>The reason it seems like some HTML acts a bit like CSS in terms of how it styles diff elements is because the particular browser styles our headings</p>
+     </aside>
+
+  </section>
+
+   
+  
+ 
+  <section>
+       <table>
+
+        <thead>
+          <th colspan=100>Fundamentals of HTML</th>
+        </thead>
+      <tr>
+        <th class="even">Tag</th>
+        <th class="even">Description</th>
+      </tr>
+      <tr>
+        <th><span class="code">html</span></th>
+        <td>used to create structure and content of a webpage</td>
+      </tr>
+      <tr>
+        <td class="even"><span class="code">body</span></td>
+        <td class="even">visible content on a page</td>
+      </tr>
+      <tr>
+        <th>
+          <span class="code">p</span>
+          <span class="code">span</span>
+          <span class="code">div</span>
+        </th>
+        <td>text blocks, span is like div but span is inline and div is block level</td>
+      </tr>
+      <tr>
+        <th class="even">
+          <span class="code">em</span>
+          <span class="code">strong</span>
+        </th>
+        <td class="even">em is kinda italic, strong is kinda bold</td>
+      </tr>
+      <tr>
+        <th>
+          <span class="code">br</span>
+          <span class="code">ol</span>
+          <span class="code">ul</span>
+          <span class="code">li</span>
+        </th>
+        <td>ul is bulleted, ol numbered</td>
+      </tr>
+      </table>
+
+  </section>
+  <section>
+    <!--Fix tables accordingly-->
+       <table>
+        <thead>
+          <th colspan=100>Tables</th>
+        </thead>
+        
+      <tr>
+          <th class="even">Tag</th>
+          <th class="even">Description</th>
+      </tr>
+      <tr>
+        <th><span class="code">table</span></th>
+        <td>creates a table</td>
+      </tr>
+      <tr>
+        <th class="even"><span class="code">tr</span></th>
+        <td class="even">adds a row to a table</td>
+      </tr>
+      <tr>
+        <th><span class="code">td</span></th>
+        <td>adds data to a row</td>
+      </tr>
+      <tr>
+        <th class="even"><span class="code">th</span></th>
+        <td class="even">table headings clarify meaning of data</td>
+      </tr>
+      <tr>
+        <th>
+          <span class="code">colspan</span>
+          <span class="code">rowspan</span>
+        </th>
+        <td>table data can span either rows or columns</td>
+      </tr>
+      <tr>
+        <th class="even">
+          <span class="code">thead</span>
+          <span class="code">tbody</span>
+          <span class="code">tfoot</span>
+        </th>
+        <td class="even">table's head body and footer</td>
+      </tr>
+      </table>
+  </section>
+
+  <section>
+      <p>Semantic means related to the meaningt, a semantic tag hence provides context as to what the content is inside of the tag</p>
+       <table>
+        <thead>
+          <th colspan=100>Semantic HTML</th>
+        </thead>
+        <tr>
+          <th class="even">Tag</th>
+          <th class="even">Description</th>
+      </tr>
+      <tr>
+        <th>
+          <span class="code">header</span>
+          <span class="code">nav</span>
+          <span class="code">main</span>
+          <span class="code">footer</span>
+        </th>
+        <td>define basic structure of web page</td>
+      </tr>
+      <tr>
+          <th class="even"><span class="code">section</span></th>
+          <td class="even">defines elements with the same theme</td>
+        
+      </tr>
+      <tr>
+        <th><span class="code">article</span></th>
+        <td>content that makes sense on its own: articles, blogs, comments..</td>
+      </tr>
+      <tr>
+        <th class="even"><span class="code">aside</span></th>
+        <td class="even">additional related info, not req to make sense of doc..</td>
+      </tr>
+      <tr>
+        <th>
+          <span class="code">figure</span>
+          <span class="code">figurecaption</span>
+        </th>
+        <td>encapsulates all type of media, figcap describes media</td>
+      </tr>
+      <tr>
+        <th class="even">
+          <span class="code">video</span>
+          <span class="code">audio</span>
+          <span class="code">embed</span>
+        </th>
+        <td class="even">all media, but embed is deprecated</td>
+      </tr>
+      </table>
+  </section>
+
+
+
+  <section>
+    <p>Clicking both the picture and video will take you to a wiki page.</p>
+      <article>
+        <figure>
+        <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank"><img src="https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg" alt="image is a self closing tag and must have some src value"/></a>
+        <figcaption>using figure and figcaption</figcaption>
+        </figure>
+    
+        <figure>
+        <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank"><video src="https://content.codecademy.com/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" height="240" width="320" autoplay controls loop>Video not supported</video></a>
+        <!--Autoplay may not work due to CodeAcademy sandbox-->
+        <figcaption>some video</figcaption>
+        </figure>
+      </article>
+    
+      <p>Even if you don't add html, body or head tags the browser will automatically add it behind the scenes</p>
+      </section>
+    
+     
+  <audio controls>
+        <source src="https://content.codecademy.com/courses/SemanticHTML/dogBarking.mp3" type="audio/mp3">
+      </audio>
+      <!--Embed has been deprecated and should not be used but included for legacy-->
+      <embed src="https://content.codecademy.com/courses/SemanticHTML/dog-on-beach.gif"/>
+
+  <article>
+    <p>Be careful about debugging HTML because it still runs with mistakes.</p>
+  <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Debugging_HTML">More on debugging..</a>
+  </article>
+  </main>
+
+  <footer>
+      <div id="resources">
+        <em>Refer to resources below: </em>
+        <ul>
+          <li><a href="https://www.codecademy.com/resources/docs/html">CodeAcademy HTML Docs - Linked using anchor</a></li>
+          <li><a href="http://software.hixie.ch/utilities/js/live-dom-viewer/?%3C!DOCTYPE%20html%3E%0D%0A%3Ctitle%3ETest%20case%3C%2Ftitle%3E%0D%0A%3Cform%20action%3D%22%23%22%3E%0D%0A%3Cinput%20name%3D%22var1%22%3E%0D%0A%3C%2Fform%3E%0D%0A">Here's a live DOM viewer</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio#attributes">Find more attributes here</a></li>
+        </ul>
+      </div>
+  </footer>
+
+  </body>
+  </html>
