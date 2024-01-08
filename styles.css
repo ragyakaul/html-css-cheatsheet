@@ -1,0 +1,172 @@
+h1 {
+    height: 150px;
+    width: 200px;
+    padding: 20px;
+  }
+
+  
+  * {
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(9, 9, 96);
+    box-sizing: border-box;
+    color: white;
+
+  }
+
+
+  li {
+    display: inline-block;
+    width: 300px;
+    font-weight: bold;
+  }
+
+  .selectByClass {
+    color: red;
+  }
+
+  .navigation {
+    position: fixed;
+    z-index: 5;
+  }
+  
+  .green {
+    color: green;
+  }
+  
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  #styledUnique {
+    font-family: cursive
+  }
+
+  table {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1rem;
+    color: pink;
+    width: 30%;
+    border-collapse: collapse;
+    
+  }
+
+  td, th {
+    background-color: rgb(6, 6, 58);
+    padding: 30px;
+
+  }
+
+  td.even, th.even, div.even {
+    background-color: rgb(9, 9, 96);
+  }
+
+
+  td:hover{
+    color: rgb(144, 147, 66)
+  }
+
+  thead th {
+    background-color: rgb(0, 0, 0);
+  }
+
+
+  
+  #banner {
+    background-image: url(./../images/headerideas.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    width: 100%;
+    height: 900px;
+  }
+
+  #banner .heading h1 {
+    position: relative;
+    top: 300px;
+    margin: 0 auto;
+    width: 300px;
+    background-color: lightblue;
+    color: white;
+    font-size:xx-large;
+    border:3px solid white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px 20px;
+    position: absolute;
+
+  }
+
+  .pull-quote {
+    width: 350px;
+    border: 1px dotted red; 
+    display: none;
+  }
+  
+  p {
+    margin: 0 auto;
+
+  }
+
+
+
+
+
+
+  .content {
+    border: 30px solid pink;
+    box-sizing: border-box;
+    padding: 100px 20px;
+    margin: 0 auto;
+    text-align: center;
+
+  }
+
+
+  .tables {
+    position: relative;
+
+  }
+
+/*
+  .css_anatomy {
+    width: 1000px;
+    height: 1000px;
+    position: relative;
+    left: 100px;
+  }
+
+  .box_model {
+    position: relative;
+  }*/
+
+
+  .images {
+    position: relative;
+    display: inline-block;
+    width: 900px;
+    height: 800px;
+
+  }
+
+  span.code {
+    font-family: monospace;
+    font-weight: bold;
+    background: transparent
+  }
+
+  span.code:before {
+    content: '<';
+  }
+
+  span.code:after {
+    content: '>';
+  }
+
+  span.code:hover {
+    color:rgb(144, 147, 66);
+  }
+
+  section h4 {
+    display: inline-block;
+  }
